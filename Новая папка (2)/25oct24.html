@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let myButton2 = document.createElement('button');
+        myButton2.innerText = 'черный фон'
+        document.body.append(myButton2)
+        myButton2.onclick = myFunction1
+        function myFunction1(){
+            document.body.style.backgroundColor = 'BLACK';
+        }
+        let myButton3 = document.createElement('button');
+        myButton3.innerText = 'красный фон'
+        document.body.append(myButton3)
+        myButton3.onclick = myFunction2
+        function myFunction2(){
+            document.body.style.backgroundColor = 'RED';
+        }
+    </script>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6b66280b83cdf1611d547ce5796e33a51a5b5e1228da0a1fe5beb70106635ee7&width=759&height=543&lang=ru_RU&scroll=true"> </script>
+</body>
+</html>
